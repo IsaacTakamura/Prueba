@@ -1,0 +1,14 @@
+{
+  "name": "bp002-web-labs",
+  "version": "1.0.0",
+  "description": "Proyecto Web Labs con frontend React y backend Supabase",
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend/src && npx supabase start",
+    "backend:stop": "cd backend/src && npx supabase stop",
+    "dev": "npm run backend & npm run frontend" 
+  },
+  "devDependencies": {
+    "supabase": "^2.53.6"
+  }
+}
