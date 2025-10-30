@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function MaterialSymbolsLightMouse(props) {
+export function MouseIcon(props) {
   return (
     <svg 
       xmlns="http://www.w3.org/2000/svg" 
@@ -18,4 +18,4 @@ export function MaterialSymbolsLightMouse(props) {
 }
 
 // Also add a default export to support both import styles
-export default MaterialSymbolsLightMouse;
+export default MouseIcon;

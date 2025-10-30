@@ -18,8 +18,9 @@ export default function GeneralDescription() {
           </p>
         {/* Botón */}
         <button
-          className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg 
-                     transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75"
+          className="rounded-full px-6 md:px-7 py-3 md:py-3.5 text-white font-semibold
+                     bg-[linear-gradient(90deg,#2E63FF_0%,#5AA9FF_100%)]
+                     shadow-lg shadow-black/20 hover:opacity-95 transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75"
           onClick={() => console.log('Explorar Logros Clickeado')}
         >
           Explore Our Achievements
