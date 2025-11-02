@@ -1,7 +1,9 @@
 export default function HeroBand() {
   
   return (
-    <section className=" bg-linear-to-r from-[#423DD3] to-[#0F20DC] rounded-2xl px-10 py-12 md:px-12 md:py-16 items-center text-center flex flex-col">
+    <div className="w-full bg-gradient-to-r from-[#423DD3] to-[#0F20DC]">
+      <div className="container mx-auto px-4">
+        <section className=" py-12 md:py-16 items-center text-center flex flex-col">
       {/* Título */}
       <h1 className="flex flex-wrap items-baseline gap-3">
         <span className="text-white font-extrabold tracking-tight text-5xl md:text-7xl leading-none">
@@ -28,5 +30,8 @@ export default function HeroBand() {
         </button>
       </div>
     </section>
+      </div>
+    </div>
+    
   );
 }
